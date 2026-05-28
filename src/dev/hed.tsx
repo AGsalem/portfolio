@@ -8,14 +8,14 @@ export default function Hed() {
 
                 <div className="flex gap-5 transition-all duration-300 ease-out ">
                     <div className="hover:-translate-y-2 hover:scale-[1.02]  hover:shadow-2xl  transition-all duration-300 ease-out ">
-                        <a href="#about">About Me</a>
+                        <a href="#about">AboutMe</a>
                     </div>
                     <div className="hover:-translate-y-2 hover:scale-[1.02]:  hover:shadow-2xl transition-all duration-300 ease-out">
                         <a href="#mypro">Projects</a>
                     </div>
                     {/* دة الي جوة الصفحة لازم ياخدidمثال
                 <div id=1>واستعيدة في اللينك  */}
-
+                
                     {/* /hover:-translate-y-2 hover:scale-[1.02]:  hover:shadow-2xl*/}
                     <div className="hover:-translate-y-2 hover:scale-[1.02]  hover:shadow-2xl  transition-all duration-300 ease-out ">
                         <a className="transition-all duration-300 ease-out " href="https://github.com/AGsalem" target="blank">
