@@ -15,7 +15,9 @@ export default function Skills() {
                             <th>Front-End</th>
                             <th>Back-End</th>
                             <th>Database</th>
-                            <th>Systems(Linux)</th>
+                            <th>Systems
+                                <p className='text-sm font-bold'>(Linux_Windows)</p>
+                            </th>
                         </tr>
                         <tbody>
                             <tr>
@@ -33,16 +35,22 @@ export default function Skills() {
                             <tr><td colSpan={4}>Tech Stack</td></tr>
                         </thead>
                         <tr>
-                            <td>Nextjs&React
+                            <td>NextJS&React
                                 <br />
                                 <span className="text-sm" >Html,CSS,JS</span>
                             </td>
-                            <td>Express&Fastify&Nestjs</td>
-                            <td>Mysql,Postgres</td>
-                            <td>Pop!os
+                            <td>
+                                <p>Express</p>
+                                <p>&Fastify</p>
+                                <p>&Nestjs</p>
+                            </td>
+                            <td>Mysql&Postgres</td>
+                            <td>Linux(
                                 <b />
+                                <p className='text-sm'>Pop!os</p>
+
                                 <p className='text-sm'>KaliLinux</p>
-                                <p className='text-sm'>RhinoLiunx</p>
+                                <p className='text-sm'>RhinoLiunx)</p>
                                 {/* <p className='text-sm '>Widows(Puplic)</p> */}
                             </td>
                         </tr>
