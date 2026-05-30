@@ -5,7 +5,7 @@ export default function Project_Gen(){
     return(
         <>
         <div id='mywork' className="bg-[#4397b1ad]  z-10 align-middle justify-center items-center  rounded-2xl p-8">
-        <h1>MY Project</h1>
+        <h2>MY Project</h2>
         
         <Project_fro></Project_fro>
         <br></br>

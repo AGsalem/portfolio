@@ -66,6 +66,7 @@ export default function Skills() {
                             <td></td>
                             <td></td>
                         </tr>
+                        {/* هنا اللغات */}
                         <thead>
                             <tr>
                                 <td colSpan={4} className='text-2xl font-bold'>Language</td>
@@ -75,7 +76,17 @@ export default function Skills() {
                             <td colSpan={4}>
                                 Python & JavaScript & TypeScript & Dart
                             </td>  </tr>
-
+                        {/* هنا الكورسات */}
+                        <thead>
+                            <tr>
+                                <td colSpan={4} className='text-xl font-bold'>Cources</td>
+                                
+                            </tr>
+                        </thead>
+                        <tr>
+                           
+                            <td colSpan={4}><h2>CS50_2026</h2></td>
+                        </tr>
                     </table>
                 </div></div>
         </>

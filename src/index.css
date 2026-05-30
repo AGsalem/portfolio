@@ -180,7 +180,7 @@
   }
 
   h1 {
-    font-size: 15px;
+    font-size: 25px;
     margin: 20px 0;
   }
 
@@ -220,29 +220,26 @@
   }
 }
 
-/* شاشات الموبايل المتوسطة (أقل من 420px) */
 @media (max-width: 420px) {
   :root {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   table, td, th, thead {
     font-size: 10px !important;
-    padding: 2px !important; /* بادنج خفيف عشان الحروف متلزقش في الحواف */
-  }
+    padding: 2px !important;
+   }
 }
 
-/* شاشات الأيفون والموبايلات الصغيرة (أقل من 418px) */
 @media (max-width: 418px) {
   img {
     max-width: 20% !important;
   }
 }
 
-/* شاشات الموبايل الأصغر (أقل من 414px) */
 @media (max-width: 414px) {
   h1 {
-    font-size: 10px; /* تم تصحيح 10x إلى 10px */
+    font-size: 10px; 
     margin: 20px 0;
   }
 
@@ -251,17 +248,11 @@
   }
 }
 
-/* الموبايلات الضعيفة جداً والقديمة (أقل من 400px) */
 @media (max-width: 400px) {
-  h1, h2, h3, h4, h5, h6, img {
+   img {
     width: 200px !important;
   }
 }
-
-
-/* =================================================== */
-/* 3. تنسيق السكرول بار الخاص بحاوية الجدول */
-/* =================================================== */
 .table-container::-webkit-scrollbar {
   height: 5px;
 }
