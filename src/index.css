@@ -133,7 +133,8 @@
    @media(max-width:1024) {
      width: 30%;
    }
-/*  418,610 */
+
+   /*  418,610 */
    @media (max-width:414px) {
      max-width: 40%;
    }
@@ -156,4 +157,13 @@
    line-height: 135%;
    padding: 4px 8px;
    background: var(--code-bg);
+ }
+
+ table,
+ td,
+ th {
+   border: solid rgba(129, 226, 2, 0.664) 5px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 25px;
  }

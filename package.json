@@ -2,7 +2,7 @@
   "homepage": "https://github.com/AGsalem/portfolio.git",
   "name": "portfolio",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.3.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
