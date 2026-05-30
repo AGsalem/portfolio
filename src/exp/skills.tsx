@@ -4,10 +4,11 @@ export default function Skills() {
         <>
         <div className=' bg-[#3639cebd] p-3 rounded-t-2xl'>
         <h2>Experience</h2> </div>
-            <div id='skills' className="w-full overflow-x-auto px-2 bg-[#3639cebd] table-container    p-10 rounded-b-3xl">
+        {/* <div className="w-full max-w-full block overflow-x-auto overflow-y-auto h-[400px] max-height-[400px] px-[10px]"> */}
+            <div id='skills' className="w-full max-w-full block overflow-x-auto overflow-y-auto h-100 max-height-[400px] px-2.5  bg-[#3639cebd] p-3 rounded-b-2xl">
                 
-                <div className='flex justify-center align-middle min-w-150 w-full'>
-                    <table>
+                <div className='flex justify-center align-middle min-w-150 w-full '>
+                <table className="w-full min-w-150 table-fixed">
                         <thead></thead>
                         <tr className="gap-2">
                             {/* بداية الجدول المعرفات */}
