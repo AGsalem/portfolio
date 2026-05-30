@@ -1,7 +1,8 @@
 export default function Hed() {
     return (
         <>
-            <div className="   bg-[#1E293B]  z-50 border-slate-700 font-bold p-2.5   flex gap-2.5 backdrop-blur-2xl border rounded-3xl justify-between items-center t-2">
+     
+            <div className=" max-[390]:text-sm   bg-[#1E293B]  z-50 border-slate-700 font-bold p-2.5   flex gap-2.5 backdrop-blur-2xl border rounded-3xl justify-between items-center t-2">
                 <div className=" font-bold tracking-wider text-2xl t-2">
                     <h2 className="">Salem</h2>
                 </div>
@@ -11,7 +12,10 @@ export default function Hed() {
                         <a href="#about">AboutMe</a>
                     </div>
                     <div className="hover:-translate-y-2 hover:scale-[1.02]:  hover:shadow-2xl transition-all duration-300 ease-out">
-                        <a href="#mypro">Projects</a>
+                        <a href="#mywork">My Work</a>
+                    </div>
+                    <div>
+                    <a href="#skills">My Skills</a>
                     </div>
                     {/* دة الي جوة الصفحة لازم ياخدidمثال
                 <div id=1>واستعيدة في اللينك  */}

@@ -11,7 +11,7 @@ export default function About() {
                     </div>
 
                     <div className="top-5 flex  justify-between  gap-3.5">
-                        <img src={a} alt="a" />
+                        <img src={a} alt="a"  width={200}/>
                         <div className=" text-xl   pr-9 text-left font-bold">
                             <h1>
  I'm  Ahmed Gamal Salem Full stack Developer

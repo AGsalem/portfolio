@@ -2,8 +2,8 @@ import Hed from "./dev/hed"
 import About from './dev/about'
 import Footer from './dev/footer'
 import Project_Gen from './dev/project/pro'
+import Skills from "./skills"
 import { useState, useEffect } from "react"
-import Expers from "./dev/exp/express"
 export default function App() {
   const [a, b] = useState(false)
   useEffect(() => {
@@ -27,7 +27,7 @@ export default function App() {
         <Project_Gen></Project_Gen>
         <br />
         {/* <express> */}
-        <Expers></Expers>
+        <Skills></Skills>
         <br />
         <Footer></Footer>
       </div>

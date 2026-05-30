@@ -45,8 +45,9 @@
      font-size: 16px;
    }
 
-   @media (max-width:414) {
+   @media (max-width:420) {
      font-size: 10px;
+
    }
  }
 
@@ -129,20 +130,21 @@
    margin: 0;
  }
 
- img {
-   @media(max-width:1024) {
-     width: 30%;
-   }
+  img {
+  
+     @media(max-width:500px) {
+      justify-content: center;
+     align-items: center;
+   } 
 
-   /*  418,610 */
-   @media (max-width:414px) {
+   /* 418,610 */
+    @media (max-width:414px) {
      max-width: 40%;
-   }
+   } 
 
-   @media (max-width:418) {
+    @media (max-width:418) {
      max-width: 20%
-   }
- }
+} }
 
  code,
  .counter {
@@ -159,11 +161,61 @@
    background: var(--code-bg);
  }
 
- table,
- td,
- th {
+ table,td,
+ th,thead {
    border: solid rgba(129, 226, 2, 0.664) 5px;
    padding: 5px;
    border-radius: 5px;
-   font-size: 25px;
+   font-size: 17px;
+ justify-content: center;
+  flex:center; 
+  @media(max-width:700){
+    font-size: 10px;
+    padding: 0;
+  }
  }
+ 
+ h1,h2,h3,h4,h5,h6,img{
+  @media(max-width:400) {
+   width: 200px;
+    
+  }
+ }
+ /* ملحوظة المشكلة التلفونات الي اقل من 420 pixel
+ مش بتتظيط على الموقع */
+ /* لما الشاشة تصغر عن 680 بكسل */
+@media (max-width: 680px) {
+    /* 1. الحاوية اللي لافة حول الجدول */
+    .table-container {
+        width: 100% !important;
+        display: block !important;    /* بيجبر الـ div يتصرف كـ بوكس مستقل */
+        overflow-x: auto !important;   /* بيسمح بالسكرول الأفقي لما الجدول يفرش */
+        padding: 0 10px !important;  
+        overflow-y: auto;
+        overflow-x: auto;
+        max-height:400px ;  /* مسافة أمان 10px يمين وشمال عشان الحروف متبقاش لازقة في الشاشة */
+    }
+
+    /* 2. الجدول نفسه */
+    .table-container table {
+        min-width: 600px !important;   /* السحر هنا: بنقول للجدول ممنوع تصغر عن 600px على أي شاشة */
+        width: 100% !important;
+        table-layout: fixed !important; /* بيخلي المتصفح يوزع مساحة الأعمدة بالتساوي وميخنقش عمود على حساب التاني */
+    }
+
+    /* 3. الخلايا وجواها الكلام */
+    .table-container td, 
+    .table-container th {
+        word-break: break-word !important; /* لو الكلمة طويلة جداً على المربع، بينزلها سطر جديد بدل ما يقطعها */
+        white-space: normal !important;    /* بيسمح للكلام ينزل سطر جديد براحته */
+    }
+}
+/* إظهار السكرول بار بشكل شيك على الموبيل */
+.table-container::-webkit-scrollbar {
+    height: 5px; /* طول شريط السكرول */
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: rgba(24, 145, 32, 0.32); /* لونه أبيض شفاف عشان يليق مع خلفيتك */
+    border-radius: 10px;
+}
