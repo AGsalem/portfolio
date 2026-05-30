@@ -2,7 +2,7 @@ import Hed from "./dev/hed"
 import About from './dev/about'
 import Footer from './dev/footer'
 import Project_Gen from './dev/project/pro'
-import Skills from "./skills"
+import Skills from "./exp/skills"
 import { useState, useEffect } from "react"
 export default function App() {
   const [a, b] = useState(false)

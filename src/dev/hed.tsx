@@ -1,11 +1,12 @@
 export default function Hed() {
     return (
         <>
-     
-            <div className=" max-[390]:text-sm   bg-[#1E293B]  z-50 border-slate-700 font-bold p-2.5   flex gap-2.5 backdrop-blur-2xl border rounded-3xl justify-between items-center t-2">
-                <div className=" font-bold tracking-wider text-2xl t-2">
-                    <h2 className="">Salem</h2>
+      <div className=" font-bold tracking-wider text-2xl t-2 rounded-3xl p-0.5 bg-[#138eb4ad]">
+                    <h2 className="">Salem Portfolio</h2>
                 </div>
+                <br/>
+            <div className=" max-[390]:text-sm   bg-[#1E293B]  z-50 border-slate-700 font-bold p-2.5   flex gap-2.5 backdrop-blur-2xl border rounded-3xl justify-between items-center t-2">
+               
 
                 <div className="flex gap-5 transition-all duration-300 ease-out ">
                     <div className="hover:-translate-y-2 hover:scale-[1.02]  hover:shadow-2xl  transition-all duration-300 ease-out ">

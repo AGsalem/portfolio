@@ -1,9 +1,11 @@
-import './index.css'
+import '../index.css'
 export default function Skills() {
     return (
         <>
-            <div id='skills' className="w-full overflow-x-auto px-2 bg-[#3639cebd] table-container    p-10 rounded-3xl">
-                <h2>Experience</h2>
+        <div className=' bg-[#3639cebd] p-3 rounded-t-2xl'>
+        <h2>Experience</h2> </div>
+            <div id='skills' className="w-full overflow-x-auto px-2 bg-[#3639cebd] table-container    p-10 rounded-b-3xl">
+                
                 <div className='flex justify-center align-middle min-w-150 w-full'>
                     <table>
                         <thead></thead>
@@ -37,10 +39,10 @@ export default function Skills() {
                             <td>Express&Fastify&Nestjs</td>
                             <td>Mysql,Postgres</td>
                             <td>Pop!os
-                                <b/>
+                                <b />
                                 <p className='text-sm'>KaliLinux</p>
                                 <p className='text-sm'>RhinoLiunx</p>
-                              <p className='text-sm '>Widows Puplic</p>
+                                <p className='text-sm '>Widows(Puplic)</p>
                             </td>
                         </tr>
                         <thead>
@@ -48,13 +50,22 @@ export default function Skills() {
                                 <td colSpan={4} className="font-bold text-xl">Projects</td>
                             </tr>
                         </thead>
-
+{/* دية المشاريع الي عملتاه وهحطها */}
                         <tr>
                             <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
                         </tr>
+                        <thead>
+                            <tr>
+                                <td colSpan={4} className='text-2xl font-bold'>Language</td>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td colSpan={4}>
+                                Python & JavaScript & TypeScript & Dart
+                            </td>  </tr>
 
                     </table>
                 </div></div>

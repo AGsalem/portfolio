@@ -184,15 +184,16 @@
  /* ملحوظة المشكلة التلفونات الي اقل من 420 pixel
  مش بتتظيط على الموقع */
  /* لما الشاشة تصغر عن 680 بكسل */
-@media (max-width: 680px) {
+@media (max-width: 1024px) {
     /* 1. الحاوية اللي لافة حول الجدول */
     .table-container {
         width: 100% !important;
         display: block !important;    /* بيجبر الـ div يتصرف كـ بوكس مستقل */
-        overflow-x: auto !important;   /* بيسمح بالسكرول الأفقي لما الجدول يفرش */
+         overflow-x: auto !important;   /* بيسمح بالسكرول الأفقي لما الجدول يفرش */
         padding: 0 10px !important;  
-        overflow-y: auto;
-        overflow-x: auto;
+        overflow-y: 10px; 
+        overflow-x: 10px; 
+        height: 400px;
         max-height:400px ;  /* مسافة أمان 10px يمين وشمال عشان الحروف متبقاش لازقة في الشاشة */
     }
 
