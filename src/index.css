@@ -174,80 +174,99 @@
    flex: center;
 
  }
+@media (max-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
 
- /* ملحوظة المشكلة التلفونات الي اقل من 420 pixel
- مش بتتظيط على الموقع */
- /* لما الشاشة تصغر عن 680 بكسل */
- @media (max-width: 1024px) {
+  h1 {
+    font-size: 15px;
+    margin: 20px 0;
+  }
 
-   /* 1. الحاوية اللي لافة حول الجدول */
-   .table-container {
-     width: 100% !important;
-     display: block !important;
-     /* بيجبر الـ div يتصرف كـ بوكس مستقل */
-     overflow-x: auto !important;
-     /* بيسمح بالسكرول الأفقي لما الجدول يفرش */
-     padding: 0 10px !important;
-     overflow-y: auto;
-     overflow-x: auto;
-     height: 400px;
-     max-height: 400px;
-     /* مسافة أمان 10px يمين وشمال عشان الحروف متبقاش لازقة في الشاشة */
-   }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0;
+  }
 
-   /* 2. الجدول نفسه */
-   .table-container table {
-     min-width: 600px !important;
-     /* السحر هنا: بنقول للجدول ممنوع تصغر عن 600px على أي شاشة */
-     width: 100% !important;
-     table-layout: fixed !important;
-     /* بيخلي المتصفح يوزع مساحة الأعمدة بالتساوي وميخنقش عمود على حساب التاني */
-   }
+  .table-container {
+    width: 100% !important;
+    display: block !important;
+    overflow-x: auto !important;
+    overflow-y: auto !important;
+    padding: 0 10px !important;
+    height: 400px;
+    max-height: 400px;
+  }
 
-   /* 3. الخلايا وجواها الكلام */
-   .table-container td,
-   .table-container th {
-     word-break: break-word !important;
-     /* لو الكلمة طويلة جداً على المربع، بينزلها سطر جديد بدل ما يقطعها */
-     white-space: normal !important;
-     /* بيسمح للكلام ينزل سطر جديد براحته */
-   }
- }
+  .table-container table {
+    min-width: 600px !important;
+    width: 100% !important;
+    table-layout: fixed !important;
+  }
 
- /* إظهار السكرول بار بشكل شيك على الموبيل */
- .table-container::-webkit-scrollbar {
-   height: 5px;
-   /* طول شريط السكرول */
- }
+  .table-container td,
+  .table-container th {
+    word-break: break-word !important;
+    white-space: normal !important;
+  }
+}
 
- .table-container::-webkit-scrollbar-thumb {
-   background-color: rgba(24, 145, 32, 0.32);
-   /* لونه أبيض شفاف عشان يليق مع خلفيتك */
-   border-radius: 10px;
- }
+/* شاشات الموبايل العريضة (أقل من 500px) */
+@media (max-width: 500px) {
+  img {
+    display: block;
+    margin: 0 auto; /* بديل احترافي لـ justify جوه الصور لتوسيطها */
+  }
+}
 
- @media(max-width:420px) {
+/* شاشات الموبايل المتوسطة (أقل من 420px) */
+@media (max-width: 420px) {
+  :root {
+    font-size: 10px;
+  }
 
-   table,
-   td,
-   th,
-   thead {
-     font-size: 10px;
-     padding: 0;
-   }
- }
+  table, td, th, thead {
+    font-size: 10px !important;
+    padding: 2px !important; /* بادنج خفيف عشان الحروف متلزقش في الحواف */
+  }
+}
 
- @media(max-width:400px) {
+/* شاشات الأيفون والموبايلات الصغيرة (أقل من 418px) */
+@media (max-width: 418px) {
+  img {
+    max-width: 20% !important;
+  }
+}
 
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   h6,
-   img {
+/* شاشات الموبايل الأصغر (أقل من 414px) */
+@media (max-width: 414px) {
+  h1 {
+    font-size: 10px; /* تم تصحيح 10x إلى 10px */
+    margin: 20px 0;
+  }
 
-     width: 200px;
+  img {
+    max-width: 40% !important;
+  }
+}
 
-   }
- }
+/* الموبايلات الضعيفة جداً والقديمة (أقل من 400px) */
+@media (max-width: 400px) {
+  h1, h2, h3, h4, h5, h6, img {
+    width: 200px !important;
+  }
+}
+
+
+/* =================================================== */
+/* 3. تنسيق السكرول بار الخاص بحاوية الجدول */
+/* =================================================== */
+.table-container::-webkit-scrollbar {
+  height: 5px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background-color: rgba(24, 145, 32, 0.32);
+  border-radius: 10px;
+}

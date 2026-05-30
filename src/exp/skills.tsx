@@ -2,20 +2,20 @@ import '../index.css'
 export default function Skills() {
     return (
         <>
-        <div className=' bg-[#3639cebd] p-3 rounded-t-2xl'>
-        <h2>Experience</h2> </div>
-        {/* <div className="w-full max-w-full block overflow-x-auto overflow-y-auto h-[400px] max-height-[400px] px-[10px]"> */}
+            <div className=' bg-[#3639cebd] p-3 rounded-t-2xl'>
+                <h2>Experience</h2> </div>
+            {/* <div className="w-full max-w-full block overflow-x-auto overflow-y-auto h-[400px] max-height-[400px] px-[10px]"> */}
             <div id='skills' className="w-full max-w-full block overflow-x-auto overflow-y-auto h-100 max-height-[400px] px-2.5  bg-[#3639cebd] p-3 rounded-b-2xl">
-                
+
                 <div className='flex justify-center align-middle min-w-150 w-full '>
-                <table className="w-full min-w-150 table-fixed">
+                    <table className="w-full min-w-150 table-fixed">
                         <thead></thead>
                         <tr className="gap-2">
                             {/* بداية الجدول المعرفات */}
                             <th>Front-End</th>
                             <th>Back-End</th>
                             <th>Database</th>
-                            <th>Systems(Linux,Windows)</th>
+                            <th>Systems(Linux)</th>
                         </tr>
                         <tbody>
                             <tr>
@@ -43,7 +43,7 @@ export default function Skills() {
                                 <b />
                                 <p className='text-sm'>KaliLinux</p>
                                 <p className='text-sm'>RhinoLiunx</p>
-                                <p className='text-sm '>Widows(Puplic)</p>
+                                {/* <p className='text-sm '>Widows(Puplic)</p> */}
                             </td>
                         </tr>
                         <thead>
@@ -51,7 +51,7 @@ export default function Skills() {
                                 <td colSpan={4} className="font-bold text-xl">Projects</td>
                             </tr>
                         </thead>
-{/* دية المشاريع الي عملتاه وهحطها */}
+                        {/* دية المشاريع الي عملتاه وهحطها */}
                         <tr>
                             <td></td>
                             <td></td>
