@@ -6,8 +6,8 @@ import Skills from "./exp/skills"
 import { useState, useEffect } from "react"
 export default function App() {
   const [a, b] = useState(false)
+  // عمل مؤقت
   useEffect(() => {
-    // عملنا تايمر صغير جداً علشان نضمن المتصفح لقط الحالة الأولى وهي مخفية
     const t = setTimeout(() => {
       b(true)
     }, 50)
@@ -19,7 +19,6 @@ export default function App() {
         ${a ? ' opacity-800 translate-y-0' : '  opacity-0  translate-y-5'}
           `}>
         <br />
-        {/* <div className={`${a ? "opacity-100  translate-y-5" : "opacity-0 translate-y-10"}`}> */}
         <Hed></Hed>
         <br />
         <About></About>

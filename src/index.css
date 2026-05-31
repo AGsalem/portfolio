@@ -142,7 +142,7 @@
      max-width: 40%;
    }
 
-   @media (max-width:418) {
+   @media (max-width:418px) {
      max-width: 20%
    }
  }
@@ -197,6 +197,8 @@
     padding: 0 10px !important;
     height: 400px;
     max-height: 400px;
+    min-height: 1024px;
+    margin-bottom: 40px;
   }
 
   .table-container table {

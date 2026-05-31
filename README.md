@@ -20,4 +20,4 @@ About Me
 ## Expriences
 ```bash
 ```
-[linkedin]<>
+[linkedin](https://www.linkedin.com/in/ahmed-gamal-5888573ab/)
