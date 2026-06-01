@@ -1,12 +1,13 @@
 import '../index.css'
+import { Link } from 'react-router-dom'
 export default function Skills() {
     return (
         // لا خالص هحطة في الموقع يدوس حمل خلصنا بقولك شوف الصورة هل الجدول احط في حاجة تانية غير الي ناقص اكملة ولا اعمل   بتاع جديد بس حاسس كدة كفاي عشان الهيد على الموبيلات جي مظبوط
         <>
             <div className=' bg-[#3639cebd] p-3 rounded-t-2xl'>
-               <h2>My Skils</h2>
+                <h2>My Skils</h2>
                 <h3>Experiences</h3> </div>
-         
+
             <div id='skills' className="w-full max-w-full block overflow-x-auto overflow-y-auto h-full max-height-[400px] px-2.5  bg-[#3639cebd] p-3 rounded-b-2xl">
 
                 <div className='flex justify-center align-middle min-w-150 w-full '>
@@ -49,7 +50,7 @@ export default function Skills() {
                             </td>
                             <td className="font-bold">MySQL& <p>Postgres</p></td>
                             <td ><h3 className='font-bold text-xl '>Linux</h3>
-                                
+
                                 <p className='text-sm'>Pop!os</p>
 
                                 <p className='text-sm'>KaliLinux</p>
@@ -83,25 +84,18 @@ export default function Skills() {
                         <thead>
                             <tr>
                                 <td colSpan={4} className='text-xl font-bold'>Cources</td>
-                                
+
                             </tr>
                         </thead>
                         <tr>
-                           
-                            <td colSpan={4}><h2>CS50_2026</h2></td>
+
+                            <td colSpan={4}><h2>CS50_2026</h2>
+                            <Link to={'/portfolio/certification'} >See all My Certification </Link>
+                            </td>
+
                         </tr>
                     </table>
                 </div></div>
         </>
     )
 }
-// //   <tr
-//                              className="flex justify-center items-center text-center">
-//                                 {/* لازم اتصرف واحط العنصر دة في النص */}
-//                                 Experience Duration
-//                         </tr>
-//                         <tr><td>postapp</td></tr>
-//                         <tr></tr>
-//                         <tr></tr>
-// <tr></tr>
-// 

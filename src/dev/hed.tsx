@@ -30,7 +30,7 @@ export default function Hed() {
                     <div className="hover:-translate-y-1.5 hover:scale-[1.02]  hover:shadow-2xl  transition-all duration-500 ease-out ">
                         <div className="flex gap-1">
 
-                            <a className="" href="https://www.linkedin.com/in/ahmed-gamal-5888573ab/" target="blank
+                            <a className="" href="https://www.linkedin.com/in/ahemdgamalsalem/" target="blank
                             "rel="noopener noreferrer">
                                 Linked In
 

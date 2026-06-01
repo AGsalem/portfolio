@@ -14,7 +14,7 @@ export default function Footer() {
           <div></div>
 
           <div>
-            <a href="https://www.linkedin.com/in/ahmed-gamal-5888573ab/" rel="noopener noreferrer" target='__blank'><img className="hover:-translate-y-2 hover:scale-[1.02]  hover:shadow-2xl  transition-all duration-300 ease-out" src={b} width={40}></img>Linked IN</a>
+            <a href="https://www.linkedin.com/in/ahemdgamalsalem/" rel="noopener noreferrer" target='__blank'><img className="hover:-translate-y-2 hover:scale-[1.02]  hover:shadow-2xl  transition-all duration-300 ease-out" src={b} width={40}></img>Linked IN</a>
           </div>
           <div >
             <a href="https://github.com/AGsalem" rel="noopener noreferrer" target='__blank'><img className="hover:-translate-y-2 hover:scale-[1.02]  hover:shadow-2xl  transition-all duration-300 ease-out" src={c} width={40}></img>GitHub</a>
