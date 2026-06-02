@@ -90,6 +90,7 @@ export default function Skills() {
                         <tr>
 
                             <td colSpan={4}><h2>CS50_2026</h2>
+                            <div id='mycv'></div>
                             <Link to={'/portfolio/certification'} >See all My Certification </Link>
                             </td>
 
