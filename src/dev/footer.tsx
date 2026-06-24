@@ -19,7 +19,7 @@ export default function Footer() {
           <div >
             <a href="https://github.com/AGsalem" rel="noopener noreferrer" target='__blank'><img className="hover:-translate-y-2 hover:scale-[1.02]  hover:shadow-2xl  transition-all duration-300 ease-out" src={c} width={40}></img>GitHub</a>
           </div>
-          <h6> <a rel="noopener noreferrer" className='text-[#82f7ff]' href='https://github.com/AGsalem/portfolio' target='__blank'>View Source Code</a></h6>
+          <h6> <a rel="noopener noreferrer" className='text-[#82f7ff] transition-all duration-300 ease-out  hover:text-amber-500' href='https://github.com/AGsalem/portfolio' target='__blank'>View Source Code</a></h6>
         </div>
 
         <footer className="flex align-middle justify-center items-center">

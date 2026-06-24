@@ -66,9 +66,6 @@ export default function Skills() {
                         {/* دية المشاريع الي عملتاه وهحطها */}
                         <tr>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
                         </tr>
                         {/* هنا اللغات */}
                         <thead>
@@ -89,10 +86,13 @@ export default function Skills() {
                         </thead>
                         <tr>
 
-                            <td colSpan={4}><h2>CS50_2026</h2>
-                            <div id='mycv'></div>
-                            <Link to={'/portfolio/certification'} >See all My Certification </Link>
-                            </td>
+                            <td colSpan={4}><h1>CS50_2026</h1>
+                                <div id='mycv'></div>
+                                <h2 className='text-violet-400  '>
+                                    <Link className='text-[#ffd700]  hover:text-blue-100
+                                    transition  duration-700 ease-in-out    ' to={'/portfolio/certification'} >See all My Certification </Link>
+                                </h2>
+                                 </td>
 
                         </tr>
                     </table>
