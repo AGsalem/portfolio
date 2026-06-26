@@ -41,7 +41,7 @@ export default function Docs() {
             src={page} alt="users"
           />
           <br />
-          <button className='bg-cyan-600  p-2 rounded-4xl text-2xl font-bold    '>search for users</button>
+          <button className='bg-cyan-600  p-2 rounded-4xl text-2xl font-bold '>search for users</button>
           <br />
           <br />
           <img className='rounded-3xl max-w-[90vw]'
