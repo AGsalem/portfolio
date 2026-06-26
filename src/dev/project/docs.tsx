@@ -40,8 +40,9 @@ export default function Docs() {
           <img className='rounded-3xl max-w-[90vw]'
             src={page} alt="users"
           />
-          <br/>
-          <h1>search for users</h1>
+          <br />
+          <button className='bg-cyan-600  p-2 rounded-4xl text-2xl font-bold    '>search for users</button>
+          <br />
           <br />
           <img className='rounded-3xl max-w-[90vw]'
             src={search} alt="users"
@@ -52,7 +53,6 @@ export default function Docs() {
       {pos && (
         <div id='posts'>
           {/* <hr className='bg-black  text-black   ' /> */}
-
           <h1>CRUD posts and verify auth</h1>
           <br />
           <img className='rounded-2xl max-w-[90vw]'
