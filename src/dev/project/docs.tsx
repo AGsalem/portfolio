@@ -1,13 +1,14 @@
 import { useState } from 'react'
 // للمستخدم
-import c from '../../assets/docs/Create &LoginUsers.png'
-import u from '../../assets/docs/update &deleteUsers.png'
-import fack from '../../assets/docs/not login or fake token.png'
-import page from '../../assets/docs/privat-page-for_user.png'
+import c from '../../assets/docs/Create-_LoginUsers.avif'
+import u from '../../assets/docs/update-_deleteUsers.avif'
+import fack from '../../assets/docs/not-login-or-fake-token.avif'
+import page from '../../assets/docs/privat-page-for_user.avif'
+import search from '../../assets/docs/searchuser.png'
 // للبوست
-import cu from '../../assets/docs/create&update post.png'
-import ds from '../../assets/docs/delete&AND seeALLPosts post.png'
-import ud from '../../assets/docs/update&delete post .png'
+import cu from '../../assets/docs/create_update-post.avif'
+import ds from '../../assets/docs/search_post_and_seeAllPosts post.avif'
+import ud from '../../assets/docs/update_delete-post.avif'
 export default function Docs() {
   const [use, setuser] = useState(false)
   const [pos, setpos] = useState(false)
@@ -17,7 +18,6 @@ export default function Docs() {
         <a className='hover:scale-[1.02] hover:text-blue-300  active:scale-90  hover:-translate-y-3 duration-500 ease-in-out text-cyan-500' href="#users" onClick={() => setuser(!use)}> Show Api for  users</a>
         <a className='hover:scale-[1.02] hover:text-cyan-200  active:scale-90 hover:-translate-y-3 duration-500 ease-in-out text-fuchsia-400' href="#posts" onClick={() => setpos(!pos)}> Show Api for  posts</a>
       </div>
-
       <br />
       <br />
       {/* users */}
@@ -40,25 +40,31 @@ export default function Docs() {
           <img className='rounded-3xl max-w-[90vw]'
             src={page} alt="users"
           />
+          <br/>
+          <h1>search for users</h1>
+          <br />
+          <img className='rounded-3xl max-w-[90vw]'
+            src={search} alt="users"
+          />
           {/* posts */}
         </div>
       )}
       {pos && (
-        
         <div id='posts'>
-                {/* <hr className='bg-black  text-black   ' /> */}
+          {/* <hr className='bg-black  text-black   ' /> */}
 
           <h1>CRUD posts and verify auth</h1>
-          <br/>
+          <br />
           <img className='rounded-2xl max-w-[90vw]'
-           src={cu} alt="posts هحط صور  هنا" />
-          <br/>
+            src={cu} alt="posts هحط صور  هنا" />
+          <br />
           <img className='rounded-2xl max-w-[90vw]'
-           src={ds} alt="posts هحط صور  هنا" />
-          <br/>
-            <img className='rounded-2xl max-w-[90vw]'
-           src={ud} alt="posts هحط صور  هنا" />
+            src={ds} alt="posts هحط صور  هنا" />
+          <br />
+          <img className='rounded-2xl max-w-[90vw]'
+            src={ud} alt="posts هحط صور  هنا" />
         </div>
-      )}   </>
+      )}
+    </>
   )
 }
