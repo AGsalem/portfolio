@@ -1,7 +1,7 @@
 import { useState } from 'react'
 // للمستخدم
 import c from '../../assets/docs/Create-_LoginUsers.avif'
-import u from '../../assets/docs/update-_deleteUsers.avif'
+import up from '../../assets/docs/update-_deleteUsers.avif'
 import fack from '../../assets/docs/not-login-or-fake-token.avif'
 import page from '../../assets/docs/privat-page-for_user.avif'
 import search from '../../assets/docs/searchuser.png'
@@ -12,11 +12,15 @@ import ud from '../../assets/docs/update_delete-post.avif'
 export default function Docs() {
   const [use, setuser] = useState(false)
   const [pos, setpos] = useState(false)
+  const [u, setU] = useState(true)
+  const [p, setP] = useState(true)
+
   return (
     <>
       <div className='flex align-middle justify-center gap-3.5 font-bold text-2xl '>
-        <a className='hover:scale-[1.02] hover:text-blue-300  active:scale-90  hover:-translate-y-3 duration-500 ease-in-out text-cyan-500' href="#users" onClick={() => setuser(!use)}> Show Api for  users</a>
-        <a className='hover:scale-[1.02] hover:text-cyan-200  active:scale-90 hover:-translate-y-3 duration-500 ease-in-out text-fuchsia-400' href="#posts" onClick={() => setpos(!pos)}> Show Api for  posts</a>
+        <a className='hover:scale-[1.02] hover:text-blue-300  active:scale-90  hover:-translate-y-3 duration-500 ease-in-out text-cyan-500' href="#users" onClick={() => { setuser(!use); setU(!u) }}>
+          {u ? "Show" : "Hide"} Api for  users</a>
+        <a className='hover:scale-[1.02] hover:text-cyan-200  active:scale-90 hover:-translate-y-3 duration-500 ease-in-out text-fuchsia-400' href="#posts" onClick={() => { setpos(!pos); setP(!p) }}> {p ? "Show" : "Hide"} Api for  posts</a>
       </div>
       <br />
       <br />
@@ -30,7 +34,7 @@ export default function Docs() {
           />
           <br />
           <img className='rounded-3xl max-w-[80vw]'
-            src={u}
+            src={up}
           />
           <br />
           <img className='rounded-3xl max-w-[80vw]'

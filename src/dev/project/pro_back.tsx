@@ -5,6 +5,7 @@ function SCAL() {
 }
 export default function Pro_back() {
     const [but, setBut] = useState(false)
+    const [show, hide] = useState(true)
     return (
         <>
             <div className="bg-[#4397b1c5] rounded-2xl p-1  ">
@@ -14,16 +15,15 @@ export default function Pro_back() {
                         <br />
                         <h4 className="font-bold">
                             post app api  back_end it's Express system
-                        
-                        <h4><br/>
-                            to see  app go <a target="__blank" className="text-teal-300  font-black transition hover:text-amber-300    duration-500   ease-in-out p-1.5  " href="https://post-app-api-rouge.vercel.app/">Post App Api</a>
-                        </h4></h4>
+                            <h4><br />
+                                to see  app go <a target="__blank" className="text-teal-300  font-black transition hover:text-amber-300    duration-500   ease-in-out p-1.5  " href="https://post-app-api-rouge.vercel.app/">Post App Api</a>
+                            </h4></h4>
                         <br />
-                        <button onClick={() => setBut(!but)} className="justify-center items-center border-amber-200 p-3.5 hover:scale-[1.02] hover:text-cyan-200 active:scale-90  hover:-translate-y-3 duration-500 ease-in-out text-2xl  bg-[#8D38C9]  rounded-2xl  "> Show Api Docs <SCAL></SCAL> </button>
+                        <button onClick={() => { setBut(!but); hide(!show) }} className="justify-center items-center border-amber-200 p-3.5 hover:scale-[1.02] hover:text-cyan-200 active:scale-90  hover:-translate-y-3 duration-500 ease-in-out text-2xl  bg-[#8D38C9]  rounded-2xl  "> {show ? "Show" : "Hide"} Api Docs <SCAL></SCAL> </button>
                         <br />
                         {but && (
                             <>
-                            <br />
+                                <br />
                                 <Docs></Docs>
                             </>
                         )}
