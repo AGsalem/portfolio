@@ -8,7 +8,7 @@
     
     "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "bu": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

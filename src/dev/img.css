@@ -1,9 +1,0 @@
-@import "tailwindcss";
-.a,b,c{
-    flex :auto;
-    justify-content:center;
-    align-items: center;
-}
-.c{
-    color:black;
-}

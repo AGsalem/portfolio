@@ -25,26 +25,26 @@ export default function Docs() {
         <div id='users'>
           <h2>crud users and private page  for users</h2>
           <br />
-          <img className='rounded-3xl max-w-[90vw] '
+          <img className='rounded-3xl max-w-[80vw] '
             src={c}
           />
           <br />
-          <img className='rounded-3xl max-w-[90vw]'
+          <img className='rounded-3xl max-w-[80vw]'
             src={u}
           />
           <br />
-          <img className='rounded-3xl max-w-[90vw]'
+          <img className='rounded-3xl max-w-[80vw]'
             src={fack}
           />
           <br />
-          <img className='rounded-3xl max-w-[90vw]'
+          <img className='rounded-3xl max-w-[80vw]'
             src={page} alt="users"
           />
           <br />
           <button className='bg-cyan-600  p-2 rounded-4xl text-2xl font-bold '>search for users</button>
           <br />
           <br />
-          <img className='rounded-3xl max-w-[90vw]'
+          <img className='rounded-3xl max-w-[80vw]'
             src={search} alt="users"
           />
           {/* posts */}
@@ -55,13 +55,13 @@ export default function Docs() {
           {/* <hr className='bg-black  text-black   ' /> */}
           <h1>CRUD posts and verify auth</h1>
           <br />
-          <img className='rounded-2xl max-w-[90vw]'
+          <img className='rounded-2xl max-w-[80vm]'
             src={cu} alt="posts هحط صور  هنا" />
           <br />
-          <img className='rounded-2xl max-w-[90vw]'
+          <img className='rounded-2xl max-w-[80vm]'
             src={ds} alt="posts هحط صور  هنا" />
           <br />
-          <img className='rounded-2xl max-w-[90vw]'
+          <img className='rounded-2xl max-w-[80vm]'
             src={ud} alt="posts هحط صور  هنا" />
         </div>
       )}
