@@ -13,7 +13,6 @@ export default function App() {
         <Route path="/portfolio/certification" element={<Cer></Cer>}></Route>
         <Route path="/portfolio/diagram" element={<SHOW/>}></Route>
         <Route path="/portfolio/schema" element={<Schema/>}></Route>
-
         {/* لو المستخدم دور على صفحة مش موجودة */}
         <Route path="*" element={<Error/>} />
       </Routes>
