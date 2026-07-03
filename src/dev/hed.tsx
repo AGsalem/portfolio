@@ -1,4 +1,4 @@
-export const Hed = ({ setcv }: { setcv: (value: boolean) => void })=> {
+export default function Hed() {
     return (
         <>
             <div className=" font-bold text-2xl t-2 rounded-3xl p-5 bg-[#138eb4ad]  ">
@@ -16,9 +16,9 @@ export const Hed = ({ setcv }: { setcv: (value: boolean) => void })=> {
                     <div className="hover:-translate-y-1.5 hover:scale-[1.02]:  hover:shadow-2xl transition-all duration-500 ease-out">
                         <a href="#skills">Skills</a>
                     </div>
-                    <a onClick={() => setcv(true)}
+                    <a
                         className="hover:-translate-y-1.5 hover:scale-[1.02]:  hover:shadow-2xl transition-all duration-500 ease-out"
-                        href="#CV">CV</a>
+                        href="/portfolio/certification">CV</a>
 
                     {/* دة الي جوة الصفحة لازم ياخدidمثال
                 <div id=1>واستعيدة في اللينك  */}

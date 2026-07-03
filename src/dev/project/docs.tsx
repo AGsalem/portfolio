@@ -29,7 +29,7 @@ export default function Docs() {
         <div id='users'>
           <h2>crud users and private page  for users</h2>
           <br />
-          <img className='rounded-3xl max-w-[80vw] '
+          <img className='rounded-3xl max-w-[80vw]'
             src={c}
           />
           <br />

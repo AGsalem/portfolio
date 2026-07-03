@@ -1,13 +1,11 @@
-import { Hed } from "../dev/hed"
+import  Hed  from "../dev/hed"
 import About from "../dev/about"
 import Footer from "../dev/footer"
 import Project_Gen from "../dev/project/pro"
 import Skills from "../exp/skills"
 import { useState } from "react"
 import { useEffect } from "react"
-import CVV from "../dev/cv"
 export default function Home() {
-    const [cv, setcv] = useState(false)
     const [a, b] = useState(false)
     // عمل مؤقت
     useEffect(() => {
@@ -23,14 +21,13 @@ export default function Home() {
                   `}>
                 <br />
                 {/* <Hed></Hed> */}
-                <Hed setcv={setcv} />
+                <Hed  />
                 <br />
                 <About></About>
                 <br />
                 <Project_Gen></Project_Gen>
                 <br />
                 {/*cv*/}
-                <CVV cv={cv}></CVV>
                 <br />
                 {/* <express> */}
                 <Skills></Skills>
