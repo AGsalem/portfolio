@@ -4,6 +4,7 @@ import posts from '../../../assets/docs/posts.avif'
 export default function SQL() {
     return (
         <>
+        <br />
             <h2> Table Admin</h2>
             <br />
             <div className="flex items-center justify-center">

@@ -18,7 +18,7 @@ export default function Hed() {
                     </div>
                     <a
                         className="hover:-translate-y-1.5 hover:scale-[1.02]:  hover:shadow-2xl transition-all duration-500 ease-out"
-                        href="/portfolio/certification">CV</a>
+                        href="/portfolio/certification.html">CV</a>
 
                     {/* دة الي جوة الصفحة لازم ياخدidمثال
                 <div id=1>واستعيدة في اللينك  */}
