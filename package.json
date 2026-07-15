@@ -5,7 +5,6 @@
   "version": "1.5.1",
   "type": "module",
   "scripts": {
-    
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "bu": "tsc -b && vite build",

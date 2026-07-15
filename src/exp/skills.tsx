@@ -6,7 +6,8 @@ export default function Skills() {
         <>
             <div className=' bg-[#3639cebd] p-3 rounded-t-2xl'>
                 <h2>My Skils</h2>
-                <h3>Experiences</h3> </div>
+                <h3>Tech Skills</h3>
+            </div>
 
             <div id='skills' className="w-full max-w-full block overflow-x-auto overflow-y-auto h-full max-height-[400px] px-2.5  bg-[#3639cebd] p-3 rounded-b-2xl">
 
@@ -20,7 +21,6 @@ export default function Skills() {
                             <th><h2>Database</h2></th>
                             <th><h2>Systems</h2>
                                 <p className='text-sm font-bold'>(Linux_Windows)</p>
-                                <p className='text-sm '>windows(Genral)</p>
                             </th>
                         </tr>
                         <tbody>
@@ -39,20 +39,18 @@ export default function Skills() {
                             <tr><td colSpan={4}>Tech Stack</td></tr>
                         </thead>
                         <tr>
-                            <td className="font-bold">NextJS&React
-                                <br />
-                                <span className="text-sm" >Html,CSS,JS</span>
+                            <td className="font-bold">NextJS<p> React</p>
+
+                                <span className="text-sm" >Html, CSS, JS</span>
                             </td>
                             <td className="font-bold">
                                 <p>Express</p>
-                                <p>&Fastify</p>
-                                <p>&Nestjs</p>
+                                <p>Fastify</p>
+                                <p>Nestjs</p>
                             </td>
-                            <td className="font-bold">MySQL& <p>Postgres</p></td>
+                            <td className="font-bold">MySQL <p>PostgreSQL</p></td>
                             <td ><h3 className='font-bold text-xl '>Linux</h3>
-
                                 <p className='text-sm'>Pop!os</p>
-
                                 <p className='text-sm'>KaliLinux</p>
                                 <p className='text-sm'>RhinoLiunx</p>
                                 {/* <p className='text-sm '>Widows(Puplic)</p> */}
@@ -65,7 +63,10 @@ export default function Skills() {
                         </thead>
                         {/* دية المشاريع الي عملتاه وهحطها */}
                         <tr>
-                            <td></td>
+                            <td className='font-bold'>Book App Front</td>
+                            <td className='font-bold'>Book App Back</td>
+                            <td className='font-bold'>Book App, DB diagram </td>
+                            <td className='font-bold'>Test_APIs</td>
                         </tr>
                         {/* هنا اللغات */}
                         <thead>
@@ -75,7 +76,7 @@ export default function Skills() {
                         </thead>
                         <tr>
                             <td colSpan={4} className='font-bold'>
-                                Python  &  JavaScript  &  TypeScript  &  Dart
+                                JavaScript   &  TypeScript &    Python
                             </td>  </tr>
                         {/* هنا الكورسات */}
                         <thead>
@@ -92,7 +93,7 @@ export default function Skills() {
                                     <Link className='text-[#ffd700]  hover:text-blue-100
                                     transition  duration-700 ease-in-out    ' to={'/portfolio/certification'} >See all My Certification </Link>
                                 </h2>
-                                 </td>
+                            </td>
 
                         </tr>
                     </table>

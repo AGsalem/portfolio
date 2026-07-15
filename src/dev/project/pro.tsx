@@ -16,7 +16,7 @@ export default function Project_Gen() {
     return (
         <>
             <div id='mywork' className="bg-[#4397b1ad]  align-middle justify-center items-center  rounded-2xl p-8">
-                <h2>MY Project</h2>
+                <h2>MY Projects</h2>
                 <AHREF />
                 <br />
                 <div id='Front' >

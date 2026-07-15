@@ -28,7 +28,6 @@ export default function Home() {
                 <Project_Gen></Project_Gen>
                 <br />
                 {/*cv*/}
-                <br />
                 {/* <express> */}
                 <Skills></Skills>
                 <br />
