@@ -17,8 +17,8 @@ export default function Cer() {
                 <div className='bg-green-700 p-5  flex flex-col   rounded-4xl'>
                     <h1>Certification</h1>
                     <a href={sprix1} target='_blank' className='text-2xl font-bold text-violet-200'>See sprix  term 1</a>
-                    <a href={sprix1} target='_blank' className='text-2xl font-bold text-fuchsia-300'> See sprix  term 2</a>
-                    <a href={sprix2} />
+                    <a href={sprix2} target='_blank' className='text-2xl font-bold text-fuchsia-300'> See sprix  term 2</a>
+
                 </div>
             </div>
         </>
