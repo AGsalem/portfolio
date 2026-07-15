@@ -22,7 +22,9 @@ export default function Pro_back() {
                             </h4>
                         </h4>
                         <br />
-                        <button onClick={() => { setBut(!but); hide(!show) }} className="justify-center items-center border-amber-200 p-3.5 hover:scale-[1.02] hover:text-cyan-200 active:scale-90  hover:-translate-y-3 duration-500 ease-in-out text-2xl  bg-[#8D38C9]  rounded-2xl  "> {show ? "Show" : "Hide"} Api Docs <SCAL></SCAL> </button>
+                        <a href='https://agsalem.github.io/post_app_api/' className="font-bold mt-5">See docs on github</a>
+                        <br />
+                        <button onClick={() => { setBut(!but); hide(!show) }} className="mt-4 justify-center items-center border-amber-200 p-3.5 hover:scale-[1.02] hover:text-cyan-200 active:scale-90  hover:-translate-y-3 duration-500 ease-in-out text-2xl  bg-[#8D38C9]  rounded-2xl  "> {show ? "Show" : "Hide"} Api Docs <SCAL></SCAL> </button>
                         <br />
                         {but && (
                             <Docs></Docs>
