@@ -37,12 +37,12 @@ export default function Pro_back() {
                         </h3>
                         <h3 className="font-bold">Api System too buy|sell Books</h3>
                         <br></br>
-                        <a href="https://github.com/AGsalem/Book-App-Back" target="_blanck" className='text-xl   font-bold text-lime-400'>Source Code</a>
+                        <a href="https://github.com/AGsalem/Book_App_Back" target="_blank" className='text-xl   font-bold text-lime-400'>Source Code</a>
                         <br />
                         {/* <h4 className="mt-3 ">
                             to see  app go <a target="__blank" className="text-teal-300  font-black transition hover:text-amber-300    duration-500   ease-in-out p-1.5  " href="https://post-app-api-rouge.vercel.app/">Post App Api</a>
                         </h4> */}
-                        <a href="https://agsalem.github.io/Book-App-Back/" target="_blanck" className='text-xl my font-bold text-lime-400'> Go docs For project </a>
+                        <a href="https://agsalem.github.io/Book_App_Back/" target="_blank" className='text-xl my font-bold text-lime-400'> Go docs For project </a>
 
                     </div>
                 </div>

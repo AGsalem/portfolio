@@ -34,7 +34,7 @@ export default function DB() {
                     <div className="bg-cyan-300  h-3.5 w-full mt-3 rounded-4xl "></div>
                     <div className="mt-4">
                         <h2>Book App DataBase</h2>
-                        <a href="https://agsalem.github.io/Book-App-Back/diagram.html" target="_blanck" className=" font-bold text-red-400  text-xl  "> Go To See Diagram</a>
+                        <a href="https://agsalem.github.io/Book_App_Back/diagram.html" target="_blank" className=" font-bold text-red-400  text-xl  "> Go To See Diagram</a>
                     </div>
                 </div>
             </div>

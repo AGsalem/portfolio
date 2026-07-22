@@ -1,6 +1,6 @@
 import Pro_back from "./pro_back";
-import Project_fro from "./pro_fro";
-import DB from "./db/db";
+import Project_fro from "./pro_front";
+import DB from "./db/DataBase";
 function AHREF() {
     return (
         <>

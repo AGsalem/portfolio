@@ -2,7 +2,6 @@ import '../index.css'
 import { Link } from 'react-router-dom'
 export default function Skills() {
     return (
-        // لا خالص هحطة في الموقع يدوس حمل خلصنا بقولك شوف الصورة هل الجدول احط في حاجة تانية غير الي ناقص اكملة ولا اعمل   بتاع جديد بس حاسس كدة كفاي عشان الهيد على الموبيلات جي مظبوط
         <>
             <div className=' bg-[#3639cebd] p-3 rounded-t-2xl'>
                 <h2>My Skils</h2>
@@ -25,7 +24,7 @@ export default function Skills() {
                         </tr>
                         <tbody>
                             <tr>
-                                <td colSpan={4} className="font-bold text-xl">Duration</td>
+                                <td colSpan={4} className="font-bold text-xl">Learning Duration</td>
                             </tr>
                         </tbody>
                         {/* الخبرات */}
@@ -33,7 +32,7 @@ export default function Skills() {
                             <td>1 Year</td>
                             <td>6 Month</td>
                             <td>4 Month</td>
-                            <td>1 Year </td>
+                            <td>1 Year</td>
                         </tr>
                         <thead>
                             <tr><td colSpan={4}>Tech Stack</td></tr>
@@ -46,14 +45,13 @@ export default function Skills() {
                             <td className="font-bold">
                                 <p>Express</p>
                                 <p>Fastify</p>
-                                <p>Nestjs</p>
                             </td>
+                            {/* انواع قواعد البيانات */}
                             <td className="font-bold">MySQL <p>PostgreSQL</p></td>
                             <td ><h3 className='font-bold text-xl '>Linux</h3>
                                 <p className='text-sm'>Pop!os</p>
                                 <p className='text-sm'>KaliLinux</p>
                                 <p className='text-sm'>RhinoLiunx</p>
-                                {/* <p className='text-sm '>Widows(Puplic)</p> */}
                             </td>
                         </tr>
                         <thead>
@@ -65,8 +63,8 @@ export default function Skills() {
                         <tr>
                             <td className='font-bold'>Book App Front</td>
                             <td className='font-bold'>Book App Back</td>
-                            <td className='font-bold'>Book App, DB diagram </td>
-                            <td className='font-bold'>Test_APIs</td>
+                            <td className='font-bold'>Book App, DB diagram</td>
+                            <td className='font-bold'>Management Linux Sytem</td>
                         </tr>
                         {/* هنا اللغات */}
                         <thead>
@@ -86,7 +84,6 @@ export default function Skills() {
                             </tr>
                         </thead>
                         <tr>
-
                             <td colSpan={4}><h1>CS50_2026</h1>
                                 <div id='mycv'></div>
                                 <h2 className='text-violet-400  '>

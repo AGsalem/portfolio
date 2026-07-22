@@ -1,4 +1,4 @@
-import  Hed  from "../dev/hed"
+import Hed from "../dev/hed"
 import About from "../dev/about"
 import Footer from "../dev/footer"
 import Project_Gen from "../dev/project/pro"
@@ -21,14 +21,12 @@ export default function Home() {
                   `}>
                 <br />
                 {/* <Hed></Hed> */}
-                <Hed  />
+                <Hed />
                 <br />
                 <About></About>
                 <br />
                 <Project_Gen></Project_Gen>
                 <br />
-                {/*cv*/}
-                {/* <express> */}
                 <Skills></Skills>
                 <br />
                 <Footer></Footer>
