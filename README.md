@@ -19,10 +19,10 @@ show my skills, about, cv, certification, projects
 <hr>
 
 ### Book App Back
-<a href='https://github.com/AGsalem/Book-App-Back' target="_blank" >Source Code</a>
+<a href='https://github.com/AGsalem/Book_App_Back' target="_blank" >Source Code</a>
 
 
-[Docs For book app](https://agsalem.github.io/Book-App-Back/)
+[Docs For book app](https://agsalem.github.io/Book_App_Back/)
 
 ## DataBase
 * DB diagram
@@ -31,7 +31,7 @@ show my skills, about, cv, certification, projects
 
 * DB diagram For Book App
 
-<a href='https://agsalem.github.io/Book-App-Back/diagram.html'  target="_blank">Go To See Diagram</a>
+<a href='https://agsalem.github.io/Book_App_Back/diagram.html'  target="_blank">Go To See Diagram</a>
 
 <h4> ouher Links</h4>
 
