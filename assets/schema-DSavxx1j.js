@@ -1,0 +1,1 @@
+import{c as e,n as t,o as n,s as r,t as i}from"./src-ByGMuybm.js";import{t as a}from"./sql-Rpbtnvuy.js";/* empty css            */var o=e(r(),1),s=n(),c=i();(0,s.createRoot)(document.getElementById(`root`)).render((0,c.jsx)(o.StrictMode,{children:(0,c.jsx)(t,{children:(0,c.jsx)(a,{})})}));
