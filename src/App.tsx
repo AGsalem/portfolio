@@ -7,6 +7,7 @@ import { Schema } from "./dev/project/db/diagramShow"
 export default function App() {
   return (
     <>
+   
       <Routes>
         {/* استعادة الملف الاساسي */}
         <Route path='/portfolio' element={<Home/>} />
@@ -16,6 +17,7 @@ export default function App() {
         {/* لو المستخدم دور على صفحة مش موجودة */}
         <Route path="*" element={<Error/>} />
       </Routes>
+      
     </>
   )
 }

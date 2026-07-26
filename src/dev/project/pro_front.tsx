@@ -7,11 +7,11 @@ export default function Project_fro() {
                     <h2>
                         Book App Front
                     </h2>
-                    <a href="https://github.com/AGsalem/Book_App_Front" className="text-xl font-bold text-fuchsia-400">Source Code</a>
+                    <a target="blank" href="https://github.com/AGsalem/Book_App_Front" className="text-xl font-bold text-fuchsia-400">Source Code</a>
+                    <a target="blank" href="https://book-app-front-eight.vercel.app" className="text-xl font-bold text-fuchsia-400">Go App</a>
                 </div>
                 <br></br>
             </div>
-
         </>
     )
 }
