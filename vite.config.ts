@@ -13,9 +13,8 @@ build:{
     certification:resolve(__dirname,'certification.html'),    
     schema:resolve(__dirname,'schema.html'),
     diagram:resolve(__dirname,'diagram.html')
-
-
-    }
+    },
+    output:{assetFileNames: 'assets/[name].[ext]'}
   }
 }
 })
