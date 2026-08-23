@@ -14,8 +14,8 @@ export default function About() {
                         {/* الوصف  */}
                         <div className="  text-xl md:text-xl pr-9 text-left  mt-5 mb-5 ">
                             <h2> Full stack Developer</h2>
-                            <p >Bulding Web Applactions since 2025</p>
-                            <h3>  REST API • UI • UX • Test Api • JWT • Validation • Strong Structrue • multer • Security Testing </h3>
+                            <p >Building Web Applications since 2025</p>
+                            <h3>  REST API • UI • UX • Test Api • JWT • Validation • Strong Structure • multer • Security Testing </h3>
                         </div>
 
                     </div>

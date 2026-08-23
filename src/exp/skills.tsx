@@ -4,7 +4,7 @@ export default function Skills() {
     return (
         <>
             <div className=' bg-[#3639cebd] p-3 rounded-t-2xl'>
-                <h2>My Skils</h2>
+                <h2>My Skills</h2>
                 <h3>Tech Skills</h3>
             </div>
 

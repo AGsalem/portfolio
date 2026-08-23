@@ -1,4 +1,4 @@
-import cv from '../assets/docs/cv/cv.pdf'
+import cv from '../assets/docs/cv/Ahmad GAMAL_Salem_Full Stack Developer_resume.pdf'
 import sprix1 from '../assets/docs/cv/sprix_term1.pdf'
 import sprix2 from '../assets/docs/cv/sprix_term2.pdf'
 import sprix3 from '../assets/docs/cv/sprix_term3.pdf'
