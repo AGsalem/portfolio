@@ -2,7 +2,7 @@ import Hed from "../dev/hed"
 import About from "../dev/about"
 import Footer from "../dev/footer"
 import Project_Gen from "../dev/project/pro"
-import Skills from "../exp/skills"
+import Skills from "../skills/skills"
 import { useState } from "react"
 import { useEffect } from "react"
 export default function Home() {

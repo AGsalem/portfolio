@@ -1,4 +1,5 @@
 import '../index.css'
+import cs50 from '../assets/docs/cv/CS50x.pdf'
 import { Link } from 'react-router-dom'
 export default function Skills() {
     return (
@@ -85,7 +86,9 @@ export default function Skills() {
                         </thead>
                         <tr>
                             <td colSpan={4}><h1>CS50_2026</h1>
+                                <a href={cs50} target='_blank'>CS50x certificate </a>
                                 <div id='mycv'></div>
+                                <br />
                                 <h2 className='text-violet-400  '>
                                     <Link className='text-[#ffd700]  hover:text-blue-100
                                     transition  duration-700 ease-in-out    ' to={'/portfolio/certification'} >See all My Certification </Link>

@@ -2,6 +2,7 @@ import cv from '../assets/docs/cv/Ahmad_GAMAL_Salem_Full_Stack_Developer_resume.
 import sprix1 from '../assets/docs/cv/sprix_term1.pdf'
 import sprix2 from '../assets/docs/cv/sprix_term2.pdf'
 import sprix3 from '../assets/docs/cv/sprix_term3.pdf'
+import cs50 from '../assets/docs/cv/CS50x.pdf'
 export default function Cer() {
     return (
         <>
@@ -18,6 +19,7 @@ export default function Cer() {
                     <a href={sprix1} target='_blank' className='text-2xl font-bold text-violet-200'>See sprix  term 1</a>
                     <a href={sprix2} target='_blank' className='text-2xl font-bold text-fuchsia-800'> See sprix  term 2</a>
                     <a href={sprix3} target='_blank' className='text-2xl font-bold text-black '> See sprix  term 3</a>
+                    <a href={cs50}  target='_blank' className='text-2xl font-bold text-cyan-300'>CS50x</a>
                 </div>
             </div>
         </>

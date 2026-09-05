@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom"
-import Error from "./component/error"
+import Error from "./components/error"
 import Cer from "./certification/page"
-import Home from "./component/page"
+import Home from "./components/page"
 import SHOW from "./dev/project/db/diagramShow"
 import { Schema } from "./dev/project/db/diagramShow"
 export default function App() {
