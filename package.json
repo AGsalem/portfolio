@@ -1,27 +1,32 @@
 {
-  "name": "p",
+  "homepage": "https://github.com/AGsalem/portfolio.git",
+  "name": "portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
     "s": "react-snap"
   },
-"reactSnap": {
-  "source": "dist",
-  "basename": "/portfolio",
-  "publicPath": "/portfolio/",
-  "exclude": ["/assets/**"],
-  "puppeteerArgs": [
-    "--no-sandbox",
-    "--disable-setuid-sandbox"
-  ]
-},
+  "reactSnap": {
+    "source": "dist",
+    "basename": "/portfolio",
+    "publicPath": "/portfolio/",
+    "exclude": [
+      "/assets/**"
+    ],
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.4",
+    "gh-pages": "^6.3.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-router-dom": "^7.18.5",
