@@ -1,14 +1,14 @@
 import { useState } from 'react'
 // للمستخدم
-import c from '../../assets/docs/Create-_LoginUsers.avif'
-import up from '../../assets/docs/update-_deleteUsers.avif'
-import fack from '../../assets/docs/not-login-or-fake-token.avif'
-import page from '../../assets/docs/privat-page-for_user.avif'
-import search from '../../assets/docs/searchuser.png'
+import c from '../../../public/assets/docs/Create-_LoginUsers.avif'
+import up from  '../../../public/assets/docs/update-_deleteUsers.avif'
+import fack from '../../../public/assets/docs/not-login-or-fake-token.avif'
+import page from '../../../public/assets/docs/privat-page-for_user.avif'
+import search from '../../../public/assets/docs/searchuser.png'
 // للبوست
-import cu from '../../assets/docs/create_update-post.avif'
-import ds from '../../assets/docs/search_post_and_seeAllPosts post.avif'
-import ud from '../../assets/docs/update_delete-post.avif'
+import cu from '../../../public/assets/docs/create_update-post.avif'
+import ds from '../../../public/assets/docs/search_post_and_seeAllPosts post.avif'
+import ud from '../../../public/assets/docs/update_delete-post.avif'
 export default function Docs() {
   const [use, setuser] = useState(false)
   const [pos, setpos] = useState(false)

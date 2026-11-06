@@ -1,4 +1,4 @@
-import a from '../assets/2.png'
+import a from '../../public/assets/2.png'
 export default function About() {
     return (
         <>

@@ -1,5 +1,5 @@
 import '../index.css'
-import cs50 from '../assets/docs/cv/CS50x.pdf'
+import cs50 from '../../public/assets/docs/cv/CS50x.pdf'
 import { Link } from 'react-router-dom'
 export default function Skills() {
     return (

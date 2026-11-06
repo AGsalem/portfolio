@@ -8,6 +8,10 @@
    width: 100%
  }
 
+ button {
+   cursor: pointer;
+ }
+
  html {
    scroll-behavior: smooth;
  }
@@ -129,6 +133,7 @@
  p {
    margin: 0;
  }
+
  code,
  .counter {
    font-family: var(--mono);

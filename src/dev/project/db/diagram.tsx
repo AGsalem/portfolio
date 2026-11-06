@@ -1,4 +1,4 @@
-import db from "../../../assets/docs/design.avif"
+import db from "../../../../public/assets/docs/design.avif"
 export default function Diagram() {
     return (
         <>

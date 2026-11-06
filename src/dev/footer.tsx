@@ -1,5 +1,5 @@
-import b from '../assets/2.png'
-import c from '../assets/3.png'
+import b from '../../public/assets/2.png'
+import c from '../../public/assets/3.png'
 export default function Footer() {
   return (
     <>

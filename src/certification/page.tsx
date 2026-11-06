@@ -1,8 +1,8 @@
-import cv from '../assets/docs/cv/Ahmad_GAMAL_Salem_Full_Stack_Developer_resume.pdf'
-import sprix1 from '../assets/docs/cv/sprix_term1.pdf'
-import sprix2 from '../assets/docs/cv/sprix_term2.pdf'
-import sprix3 from '../assets/docs/cv/sprix_term3.pdf'
-import cs50 from '../assets/docs/cv/CS50x.pdf'
+import cv from '../../public/assets/docs/cv/Ahmad_GAMAL_Salem_Full_Stack_Developer_resume.pdf'
+import sprix1 from '../../public/assets/docs/cv/sprix_term1.pdf'
+import sprix2 from '../../public/assets/docs/cv/sprix_term2.pdf'
+import sprix3 from '../../public/assets/docs/cv/sprix_term3.pdf'
+import cs50 from  '../../public/assets/docs/cv/CS50x.pdf'
 export default function Cer() {
     return (
         <>

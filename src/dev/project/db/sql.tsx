@@ -1,6 +1,6 @@
-import admin from '../../../assets/docs/admin.avif'
-import users from '../../../assets/docs/users.avif'
-import posts from '../../../assets/docs/posts.avif'
+import admin from '../../../../public/assets/docs/admin.avif'
+import users from '../../../../public/assets/docs/users.avif'
+import posts from '../../../../public/assets/docs/posts.avif'
 export default function SQL() {
     return (
         <>
